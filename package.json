@@ -1,0 +1,22 @@
+{
+  "name": "imba-static-site-buildur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "imba build.imba",
+    "serve": "http-server dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "vite": "^4.4.9",
+    "vite-plugin-imba": "^0.10.3"
+  },
+  "devDependencies": {
+    "vite-node": "^0.34.3",
+    "http-server": "latest"
+  }
+}
