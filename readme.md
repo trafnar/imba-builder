@@ -1,6 +1,6 @@
 Prototype static site builder for imba with SSR and hydration.
 
-- Add pages to the `pages/` directory
+- Add pages to the `pages/` directory (each page needs to default export a tag)
 - Run `npm run build` to build the site into the `dist/` directory
 - Use `npm run serve` to serve the dist directory
 - An HTML template is defined within the build script, `build.imba`
